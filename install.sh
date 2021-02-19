@@ -11,7 +11,7 @@ echo -e "2) Don't let your display sleep"
 echo -e "3) Good Internet speed"
 echo -e "4) Patience : Will take time"
 sleep 2.0
-echo -e "\e[4;34mInstallation Process Starting"
+echo -e "\e[0;34mInstallation Process Starting"
 sleep 2.0
 termux-setup-storage
 pkg install wget -y
@@ -21,3 +21,4 @@ chmod +x install-nethunter-termux
 echo -e "Thanks For Using This Tool"
 echo -e "\e[1;90mLove From HACKERSPUNK"
 echo -e "Loading....."
+echo " "
